@@ -4,12 +4,10 @@ import random
 def split_word(word):
     return [char for char in word]
 
+# Open the file in read mode
 
-word_list = ["bird", "is", "the", "word"]
-
-
-word  = random.choice(word_list)
-
+word  = random.choice(open("F:\GitHub\Python\Projects\sources\hangman.txt", "r").read().split())
+print(word)
 # Splitting the Word
 secret_word = split_word(word)
 
