@@ -1,6 +1,9 @@
+import random
+
+# allowed_suite = ["Hearts", "Diamonds", "Clubs", "Spades"]
+# allowed_value = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
+
 class Card:
-   # allowed_suite = ["Hearts", "Diamonds", "Clubs", "Spades"]
-   # allowed_value = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
     def __init__(self, suite, value):
         self.suite = suite
         self.value = value
